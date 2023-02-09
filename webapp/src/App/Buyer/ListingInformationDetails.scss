@@ -1,0 +1,47 @@
+// scss to display the price
+price {
+  font-size: larger;
+  font-weight: bold;
+  font-size: 30px;
+}
+.buyerInformationDetails {
+  font-size: 15px;
+  color: white;
+}
+
+// to change the bootstrap tab styling
+.nav-link.active {
+  color: white !important;
+  background-color: #f34079 !important;
+}
+
+.nav-tabs {
+  margin-bottom: 0;
+}
+
+.buyerTabs {
+  background-color: black;
+  color: white;
+  font-size: 30px;
+}
+
+.nav {
+  background-color: #555555;
+  color: white;
+  font-size: 20px;
+}
+
+// defining a h7 heading element
+h7 {
+  font-size: 0.5em;
+  margin-top: 2.33em;
+  margin-bottom: 2.33em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+// defining the pre element
+pre {
+  display: inline;
+  line-height: 1.5;
+}

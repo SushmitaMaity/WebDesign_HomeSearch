@@ -1,0 +1,19 @@
+//  seller tour booking items styles
+ //each card styles
+ .seller-tour-card-img {
+    height: auto;
+    max-height: 700px;
+    width: auto;
+    max-width: 450px;
+    min-width:350px;
+    border-radius: 10px;
+    padding:10px;
+  }
+
+  .seller-tour-card-img:hover
+  {
+    box-shadow:0 20px 26px 0 rgba(18, 3, 61, 0.2),0 6px 20px 0 rgba(18, 3, 61, 0.2) !important;
+    //box-shadow: 10 10 21px rgba(33,33,33,.2); 
+    transform: scale(1.1);
+      //  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }

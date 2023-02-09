@@ -1,0 +1,180 @@
+// seller home main page styles
+
+body {
+    color: white;
+}
+
+//main container
+.addpost-grid-container-sell {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #00B4CC;
+    padding: 10px;
+    gap: 10px;
+    grid-template-rows: minmax(250px, auto);
+    //width: 80%;
+    // box-sizing: border-box;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+//grid item styles
+.addpost-grid-item-sell {
+    color: black;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+//image styles
+.addpost-img-width {
+    padding-top: 60px;
+    width: 90%;
+
+}
+
+
+//background image style
+.addpost-search-background-img {
+    padding-top: 60px;
+    width: 90%;
+    height: 20%;
+}
+
+//padding l
+.addpost-padding-left {
+    padding-left: 10px;
+}
+
+//padding r
+.addpost-padding-right {
+    padding-right: 10px;
+}
+
+//margin 
+.addpost-margin-right {
+    margin-right: 10px;
+}
+//margin 
+.addpost-margin-left {
+    margin-left: 10px;
+}
+
+//seller card styles left
+.seller-card-margin-left {
+    margin-left: 50px;
+    margin-right: 20px;
+    //float: left;
+    padding: 10px;
+    margin: 10px;
+    min-height: 300px;
+    max-height: 700px;
+    height: 500px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+//seller card styles right
+.seller-card-margin-right {
+    margin-left: 20px;
+    margin-right: 40px;
+    //float: right;
+    padding: 10px;
+    margin: 10px;
+    min-height: 300px;
+    max-height: 700px;
+    height: 500px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+//center styles
+.addpost-center-it {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.seller-card-home {
+    width: 28rem;
+    //align-center:
+    max-height: max-content;
+    
+}
+
+.seller-why-sell {
+    width: 28rem;
+    //align-center:
+    max-height: max-content;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+//card settings
+.seller-card-settings {
+    flex: 0 0 33.3333333%;
+    max-width: 33.3333333%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+    color: black;
+}
+
+//main color
+.seller-font-color {
+    color: #00B4CC;
+}
+
+//spacing inside
+.seller-spacing {
+    width: 50%;
+    height: 20%;
+    margin: 50px;
+}
+
+//spacing between
+.seller-spacing-2 {
+    width: 50%;
+    height: 5%;
+    margin: 10px;
+}
+
+//center all
+.seller-center {
+    align-content: center;
+    text-align: center;
+}
+
+//center main content
+.seller-center-content {
+    align-content: center;
+    text-align: center;
+}
+
+
+.seller-main-container-home {
+    margin-left: 70px !important;
+    align-content: center;
+    text-align: center;
+}
+
+//sticky div
+.chat-sticky {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    //border: 2px dashed rgba(114, 186, 94, 0.35);
+    height: 40px;
+    // background: rgba(114, 186, 94, 0.05);
+    overflow: visible;
+
+
+}

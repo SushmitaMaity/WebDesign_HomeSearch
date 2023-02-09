@@ -1,0 +1,49 @@
+.card1{ 
+display: inline-block; 
+margin-top: 160px;
+width: 260px;
+height: 286px;
+margin-left: 300px;
+padding-right: 20px;
+font-size: 1em;
+}
+//displaying and designing as a in-line block
+.card2{
+    display: inline-block;
+    margin-top: 160px;
+width: 260px;
+height: 286px;
+margin-bottom: 70px;
+padding-left: 20px;
+}
+//displaying and designing as a in-line block
+.card3{
+    display: inline-block;
+    margin-top: 160px;
+width: 250px;
+height: 286px;
+margin-left: 38px;
+margin-bottom: 70px;
+}
+//displaying and designing as a in-line block
+.flex-container{
+    display: flex;
+    margin-top: 420px;
+    padding-top: 20px;
+    padding: 60px;  
+} //displaying as a flex
+.btnbuy{
+//button alignment
+    align-content: center;
+    text-align: center;
+}
+.btnrent{
+   //button alignment
+    align-content: center;
+    text-align: center;
+}
+.btnsell{
+    //button alignment
+    align-content: center;
+    text-align: center; 
+}

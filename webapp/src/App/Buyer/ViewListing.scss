@@ -1,0 +1,50 @@
+.buyerbody {
+  padding: 10px;
+}
+
+.buyersearch {
+  margin-bottom: 20px;
+}
+
+// dividing the page to two
+.buyerdivide {
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+.buyergrids {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, 20rem);
+}
+
+// styling the h2 parameter
+h2 {
+  color: white;
+  margin-right: 120px;
+  padding: 10px;
+}
+
+.buyerbox2 {
+  position: relative;
+}
+
+// setting the favorite button
+.buyerFavoritesbutton {
+  position: absolute;
+  top: 2%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.favoritebutton {
+  background: linear-gradient(135deg, #f34079 40%, #fc894d);
+  width: 150px;
+  color: white;
+  border-radius: 10px;
+}

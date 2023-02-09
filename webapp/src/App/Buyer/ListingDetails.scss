@@ -1,0 +1,33 @@
+// scss to listing details component
+.buyerListingbody{
+    padding:40px;
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+// scss to divide the page into 2 components
+.buyerListingdivide {
+  z-index:1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  justify-items: center;
+  align-items: center;
+}
+  
+.buyerListinggrids{
+display: grid;
+gap: 1rem;
+grid-template-columns: repeat(auto-fit, 20rem);
+}
+
+// button
+.backbutton {
+  background: linear-gradient(135deg, #f34079 40%, #fc894d);
+  width: 65px;
+  height:40px;
+  color:white;
+  border-radius: 10px;
+}
+

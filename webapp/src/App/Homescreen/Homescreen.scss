@@ -1,0 +1,40 @@
+//adding styling to the background search img
+.search-background-img{
+    width:100%;
+    height: 540px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background-color: black;
+    position:absolute;
+    margin-left: 20px;
+    justify-content: center;
+    top: 100px;
+}
+//adding black background
+.body{
+    background-color: black;
+}
+// shifting login to the right
+.login-btn{
+    float: right;
+}
+// shifting signup to the right
+.Signup-btn{
+    float: right;
+}
+.buybutton {
+    background: linear-gradient(135deg, #f34079 40%, #fc894d);
+    box-sizing: border-box;
+    width: 65px;
+    margin-left: 600px;
+}
+.sellbutton {
+    background: linear-gradient(135deg, #f34079 40%, #fc894d);
+    box-sizing: border-box;
+    width: 65px;
+}
+.rentbutton {
+    background: linear-gradient(135deg, #f34079 40%, #fc894d);
+    box-sizing: border-box;
+    width: 65px;
+}

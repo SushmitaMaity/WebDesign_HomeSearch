@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "- Aditi Jain (001038953)\r - Priyanka Ahuja (001573684)\r - Sushmita Maity (001092534)\r - Anjali Sajeevan (001563277)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "debug": "^4.3.2",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.13",
+    "mongoose-unique-validator": "^3.0.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "nodeman": "^1.1.2",
+    "socket.io": "^4.4.0"
+  }
+}

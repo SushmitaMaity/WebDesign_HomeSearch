@@ -1,0 +1,57 @@
+.carouseldisplay{
+  width: 65%;
+  height: 55%;
+}
+.Carousel.Item{
+ width:40%;
+ height:40%;
+} 
+//adding alignment and display to the details feature
+.hothomesdetails{
+ padding-top: 60px;
+ background-color: white;
+ display: grid;
+ grid-template-columns: repeat(3, 33%);
+ grid-gap: 10px;
+ align-content: center;
+  text-align: center;
+}
+//adding alignment and display to the details feature
+.exclusive{
+display: inline-block;
+padding-left: 60px;
+.img1{
+  width: 30%;
+  height: 50%;
+  align-items: center;
+}
+}
+
+//adding alignment and display to the details feature
+.Prioritize{
+display: inline-block;
+padding-right: 10px;
+padding-left: -60px;
+.img2{
+  width: 30%;
+  height: 50%;
+  align-items: center;
+}
+}
+//adding alignment and display to the details feature
+.Competitive{
+display: inline-block;
+padding-left: -20px;
+.img3{
+  width: 30%;
+  height: 50%;
+  align-items: center;
+}
+}
+.para2{
+margin-left: 760px;
+margin-right: 80px;
+margin-bottom: 0px;
+margin-top: -190px;
+color: rgb(170, 168, 168)
+}

@@ -1,0 +1,69 @@
+.adminListingbody{
+    color:white;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.adminListingdivide {
+    z-index:1;
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    justify-items: center;
+    align-items: center;
+  }
+    
+  .adminListinggrids{
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, 20rem);
+  }
+
+  .adminContactus{
+    background: linear-gradient(135deg, #f34079 40%, #fc894d) !important;
+    color:white;
+}
+
+.adminCarousel{
+justify-content: center;
+align-items: center;
+text-align: center;
+
+}
+
+.adminListingbox2{
+justify-content: center;
+align-items: center;
+text-align: center;
+margin: 0;
+position: absolute;
+top: 100%;
+width:100;
+left: 65%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+color:white;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.adminMessageText{
+    // background: linear-gradient(135deg, #f34079 40%, #fc894d) !important;
+    color:white;
+    -ms-transform: translate(12%, -20%);
+transform: translate(-35%, -10%);
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.adminMessagesCard{
+    background: white !important;
+    color: #f34079  !important;
+}

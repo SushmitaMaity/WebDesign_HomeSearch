@@ -1,0 +1,29 @@
+// chat component sticky
+.chat-sticky {
+    position: -webkit-sticky;
+    position: fixed;
+    top: 60%;
+    left:58%;
+    width:70%;
+    //margin-left: 20px;
+    // scroll: true;
+    // backdrop: true;
+    //font-size: larger;
+    z-index: 10;
+}
+
+//chat font size
+.chat-font-size{
+    font-size: larger;  
+}
+
+//chat text align
+.chat-align{
+    align-items: center;
+    text-align: center;
+}
+
+//chat height style
+.chat-height{
+    height: 30px;
+}
